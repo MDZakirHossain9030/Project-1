@@ -1,0 +1,630 @@
+/*orientation:portrait mane Y Exes kaj korbe*/
+@media (min-width: 300px) and (max-width: 420px){
+
+    
+    /* body  */
+    body{
+        width: 360px;
+     }
+        
+    /*{menuBar} */
+        nav {
+            width: 360px;
+            font-size: 11px;
+            padding: 0px 0px;
+            box-sizing: border-box;
+            position: fixed;
+            margin-left: 60px;
+            height: 28px;
+            z-index: 1000;
+            }
+        ul.menuList {
+                margin-right: 13px;
+            }        
+                nav ul li {
+                    padding: 6px;
+                    box-sizing:border-box;
+                }
+                nav ul li a {
+                    text-decoration: none;
+                    font-size: 9px;
+                }
+                .logo {
+                    font-size: 11px;
+                    margin-left: 18px;
+                    margin-top: -2px;
+                }   
+                .logo:hover {
+                    color:var(--whiteColor);
+                } 
+                
+                
+                /*Home page*/
+                .banner{
+              background:url("background(4).jpg");
+              background-size: 100%;
+              background-repeat: no-repeat;
+              margin-top: 32px;
+              width: 358px;
+              position: relative;
+            }	
+            
+            .banner .content{
+                width: 159px;
+                margin-top: -558px;
+                margin-left: 87px;
+                line-height: 7px;
+                font-size: 5px;
+            }
+            
+            
+            .banner .content h1{
+                font-size: 15px;
+                margin-bottom: 7px;
+            }
+            
+            .banner .content span{
+                font-size: 15px;
+            }
+            
+            .banner .content .btn{
+                padding: 4px;
+                box-sizing:border-box;
+                border-radius: 2px;
+                margin-left: -14px;
+                font-size: 4px;
+                margin-top: 1px;
+            }
+            
+            
+            /*ABOUT page*/
+            .about{
+                width: 360px;
+                margin-top: -496px;
+            }		
+            .about .content{
+                width: 366px;
+                margin-top: 5px;
+                margin-left: -5px;
+                font-size: 13px;
+                line-height: 1.5rem;
+                padding: 39px;
+                box-sizing: border-box;
+       }
+       /*about picture*/
+       .about img.picture {
+           width: 277px;
+           height: 270px;
+           margin-left: 41px;
+           margin-top: 317px;
+        }
+        
+        /*FOOD*/
+        
+        .food{
+            width: 360px;
+            height: 1417px;
+        }
+        
+        .food .content h1{
+            margin-top: 34px;
+            margin-left: 0px;
+            font-size: 20px;
+            width: 360px;
+            text-align: center;
+    }
+    
+    .food .content h1 span{
+        font-size: 26px;
+    }
+    
+    .food .content p{
+        font-size: 8px;
+        margin-top: 70px;
+        margin-left: 0px;
+        width: 360px;
+    }
+    
+    /*food pasta img */
+    .pasta{
+        width: 360px;
+        margin-top: 108px;
+        margin-left: 0px;
+    }
+    .pasta img.picture {
+        width: 278px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .pizza{
+        width: 360px;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .pizza img.picture {
+        width: 278px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .fry{
+        width: 360px;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .fry img.picture {
+        width: 278px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .heading{
+        font-size: 15px;
+    }
+    .price{
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    
+    .shopNow{
+        width: 68px;
+        padding: 5px;
+        box-sizing:border-box;
+        font-size: 11px;
+        margin-left: 122px;
+    }
+    
+    /*LAPTOP*/
+    
+    .laptop{
+        width: 360px;
+        position: relative;
+        height: 1420px;
+        margin-top: -36px;
+    }
+    
+    .laptopContent h1{
+        width: 360px;
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    .laptopContent p{
+        width: 231px;
+        margin-top: 64px;
+        margin-left: 92px;
+        font-size: 10px;
+    }
+    .laptopImg{
+        background: #d0c6c6;
+        width: 295px;
+        padding: 24px;
+        box-sizing:border-box;
+        display: inline-block;
+        margin-top: 322px;
+        /* margin-left: 44px; */
+    }
+    .laptopName {
+        text-align: center;
+        font-family: arial;
+        font-size: 20px;
+    }
+    .laptopImg p{
+        color:red;
+    }
+    .laptopContent h1 span{
+        font-size: 20px;
+    }
+    .img{
+        width: 278px;
+        height: 250px;
+    }
+    
+    /*3 laptops position*/
+    .apple {
+        margin-left: 30px;
+        margin-top: 151px;
+    }
+    .dell {
+        margin-left: 30px;
+        margin-top: 575px;
+    }
+    
+    .php {
+        margin-left: 30px;
+        margin-top: 998px;
+        position: absolute;
+    }
+    
+    /*Contact*/
+    
+    .contact{
+        width: 360px;
+        position: relative;
+        height: 800px;
+        margin-top: -36px;
+    }
+    .contact .content h1{
+        width: 390px;
+        font-size: 19px;
+        margin-top: 43px;
+        margin-left: -32px;
+    }
+    
+    .contact .content span{
+        font-size: 28px;
+        margin-top: 0px;
+        margin-left: 41px;
+    }
+    .contact .content p{
+        font-size: 13px;
+        margin-top: 80px;
+        margin-left: 55px;
+        width: 250px;
+    }
+    
+    /*zakir' img background*/
+    .zakir {
+        width: 300px;
+        height: 300px;
+        margin-top: 163px;
+        margin-left: 31px;
+    }
+    
+    /*zakir's img*/
+    .zakir img {
+        width: 269px;
+    }
+    
+    /*zakir's name*/
+    .myName {
+        margin-top: 431px;
+        margin-left: 76px;
+        width: 210px;
+    }
+    
+    /*form*/				
+    .form{
+        margin-left: 52px;
+        margin-top: 512px;
+        width: 255px;
+    }	
+    .form h3{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .form input{
+        width: 230px;
+        height: 29px;
+        padding: 18px;
+        box-sizing:border-box;
+    }
+    
+    .form textarea{
+        width: 229px;
+        height: 52px;
+        border-radius: 8px;
+    }
+    
+    .form .submit{
+        width: 89px;
+        padding: 5px;
+        box-sizing:border-box;
+        font-size: 16px;
+    }
+    /*footer */
+    .footer {
+        margin-left: 30px;
+        font-size: 13px;
+        width: 300px;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    /*orientation:landscape mane x Exes kaj korbe*/
+    @media all and (min-width:421px) and (max-width:800px){
+          /* body  */
+    body{
+        width: 1171px;
+     }
+        
+        /* {menuBar} */
+        nav {
+            width: 1256px;
+            margin-left: 60px;
+            position: fixed;
+            }
+            ul.menuList {
+                margin-right: 33px;
+            }        
+                nav ul li {
+                    padding: 15px 43px;
+                    box-sizing:border-box;
+                }
+                
+                
+              
+              
+                
+                /*Home page*/
+                .banner{
+              width: 1256px;
+              background:url("background(4).jpg");
+              background-size: 100%;
+              background-repeat: no-repeat;
+              margin-top: 49px;
+              position: relative;
+            }	
+            
+            .banner .content{
+                width: 421px;
+                margin-top: -326px;
+                margin-left: 228px;
+                line-height: 28px;
+                font-size: 19px;
+            }
+            
+            
+            .banner .content h1{
+                font-size: 40px;
+                margin-bottom: 7px;
+            }
+            
+            .banner .content span{
+                font-size: 44px;
+            }
+            
+            .banner .content .btn{
+                padding: 8px;
+                box-sizing:border-box;
+                margin-left: -43px;
+                font-size: 16px;
+                margin-top: 6px;
+            }
+           
+            
+                /*ABOUT page*/
+                .about{
+                    width: 1256px;
+                    height: 1300px;
+                    margin-top: -76px;
+                }		
+                .about .content{
+                    width: 1100px;
+                    margin-top: 92px;
+                    margin-left: 90px;
+                    font-size: 33px;
+                    line-height: 51px;
+                    padding: 5px;
+                    box-sizing: border-box;
+                }
+    
+    /*about picture*/
+    .about img.picture {
+        width: 700px;
+        height: 700px;
+        margin-left: 274px;
+        margin-top: 539px;
+     }
+    
+     /*FOOD*/
+        
+     .food{
+        width: 1256px;
+        height: 680px;
+        margin-top: 0px;
+    }
+    
+    .food .content h1{
+        width: 1170px;
+        text-align: center;
+        margin-top: 55px;
+        margin-left: 87px;
+        font-size: 50px;
+    }
+    
+    .food .content h1 span{
+        font-size: 60px;
+    }
+    
+    .food .content p{
+        font-size: 25px;
+        margin-top: 127px;
+        margin-left: 113px;
+        width: 1131px;
+    }
+    
+    /*food pasta img */
+    .pasta{
+        width: 375px;
+        margin-top: 193px;
+        margin-left: 25px;
+    }
+    .pasta img.picture {
+        width: 278px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .pizza{
+        width: 356px;
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+    .pizza img.picture {
+        width: 278px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .fry{
+        width: 356px;
+        margin-top: 80px;
+        margin-left: 46px;
+    }
+    .fry img.picture {
+        width: 278px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    
+    .heading{
+        font-size: 30px;
+    }
+    .price{
+        font-size: 20px;
+    }
+    
+    .shopNow{
+        width: 96px;
+        padding: 12px;
+        box-sizing:border-box;
+        font-size: 15px;
+        margin-left: 118px;
+    }
+    
+    
+    /*LAPTOP*/
+    
+    .laptop{
+        width: 1256px;
+        position: relative;
+        margin-top: -36px;
+    }
+    
+    .laptopContent h1{
+        width: 1170px;
+        margin-left: 0px;
+        margin-top: 57px;
+        font-size: 44px;
+        text-align: center;
+    }
+    
+    .laptopContent p{
+        margin-top: 132px;
+        margin-left: 251px;
+        font-size: 21px;
+    }
+    .laptopImg{
+        background: #d0c6c6;
+        width: 295px;
+        padding: 24px;
+        box-sizing:border-box;
+        display: inline-block;
+        margin-top: 322px;
+        /* margin-left: 44px; */
+    }
+    .laptopName {
+        text-align: center;
+        font-family: arial;
+        font-size: 30px;
+    }
+    .laptopImg p{
+        color:red;
+    }
+    .laptopContent h1 span{
+        font-size: 50px;
+    }
+    .img{
+        height:300px;
+    }
+    
+    /*3 laptops position*/
+    .apple {
+        margin-left: 50px;
+        margin-top: 250px;
+    }
+    .dell {
+        margin-left: 446px;
+        margin-top: 250px;
+    }
+    
+    .php {
+        margin-left: 830px;
+        margin-top: 250px;
+        position: absolute;
+    }
+    
+    /*Contact*/
+    
+    .contact{
+        width: 1256px;
+        height: 680px;
+        margin-top: 0px;
+    }
+    .contact .content h1{
+        width: 1171px;
+        font-size: 31px;
+        margin-top: 62px;
+        margin-left: 0px;
+        position: absolute;
+    }
+    
+    .contact .content span{
+        font-size: 40px;
+    }
+    .contact .content p{
+        font-size: 19px;
+        margin-top: 111px;
+        margin-left: 372px;
+    }
+    
+    .zakir {
+        width: 400px;
+        height: 400px;
+        margin-top: 213px;
+        margin-left: 750px;
+    }
+    
+    /*zakir's img*/
+    .zakir img {
+        width: 360px;
+    }
+    
+    /*zakir's name*/
+    .myName {
+        margin-top: 572px;
+        margin-left: 810px;
+        width: 279px;
+    }
+    
+    
+    /*form*/				
+    .form{
+        margin-left: 97px;
+        margin-top: 223px;
+        width: 506px;
+    }	
+    
+    .form input{
+        width: 293px;
+        height: 29px;
+        padding: 23px;
+        box-sizing:border-box;
+    }
+    
+    .form textarea{
+        width: 295px;
+        height: 73px;
+        border-radius: 10px;
+    }
+    
+    .form .submit{
+        width: 100px;
+        padding: 0px 0px;
+        box-sizing:border-box;
+        font-size: 21px;
+        margin-top: 0px;
+    }
+    /*footer */
+    .footer {
+        margin-top: 4px;
+        margin-left: 416px;
+        font-size: 16px;
+        width: 424px;
+    }
+    
+    }

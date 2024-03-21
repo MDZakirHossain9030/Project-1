@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+<!--navigation bar-->
+	<nav class="nav">
+		<div class="logo">
+			<h1>DesignX</h1>
+		</div>
+	
+		<ul class="menuList" onclick="menuList()">
+			<li><a href="#banner">HOME</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#food">FOOD</a></li>
+			<li><a href="#laptop">LAPTOP</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	
+		<div class="menuIcon">
+			<img src="menu.png" width="25px" onclick="toggleMenu()" />
+		</div>
+	
+	</nav>
+	 
+	 
+	 
+<!--Home page-->
+	 <section class="banner" id="banner">
+		 <div class="content">
+			 <h1><span>W</span>ebside</h1>
+			  <p>Hello guies you are pray for me. It is my new Webside.
+			  There are 5pages in my webside. Home, About, Food, Laptop, Contact.
+			  you visit all my pages I hove you will be well.</p>
+			  <a href="#" class="btn">Our Menu</a>
+		 </div>
+	 
+	 </section>
+	
+	
+	
+<!--ABOUT page-->	
+	<section class="about" id="about">
+		<div class="content">
+			 <h1><span>A</span>bout Me</h1>
+			 
+			  <p>I am a Student of RS Ideal Degree College in Kishoregonj.
+			  I live at Austagram in Kishoregonj. My father's name is MD Bashir Uddin and 
+			  My mother's name is Rashema Begum. We are three siblings, My elders sister's name is Sajbanu and my younger sister's name is Khadija
+				I have no brother.
+			  I want to Freelancher you are pray for me always.</p>
+		 </div>
+		 
+		 <img class="picture"src="zakir.png" width=300/>
+	</section>
+
+	
+	
+<!--FOOD page-->	
+		<section class="food" id="food">
+			<div class="content">
+				 <h1><span>F</span>ood Menu</h1>
+				  <p>These are my incrideble favourite food, I like alwaye these.</p>
+			 </div>
+		 
+		
+			 <div class="imgContent pasta">
+			   <img src="Pasta.png" width=350 class="picture"/>
+			   
+				<h3 class="heading">Pasta </h3>
+				<h4 class="price">Price= <del>$5.99/-</del> $4.99/-</h4>
+				<p class="shopNow">Buy Now</p>
+			 </div>	 
+			 
+			 
+			 <div class="imgContent pizza">
+			   <img src="pizza.png" width=350 class="picture"/>
+			   
+				<h3 class="heading">Pizza </h3>
+				<h4 class="price">Price= <del>$5.99/-</del> $4.99/-</h4>
+				<p class="shopNow">Shop Now</p>
+			 </div>	
+			 
+			 
+			 
+			<div class="imgContent fry">
+			   <img src="france fry .png" width=350 class="picture"/>
+			   
+				<h3 class="heading">France </h3>
+				<h4 class="price">Price= <del>$5.99/-</del> $4.99/-</h4>
+				<p class="shopNow">Shop Now</p>
+			 </div>	
+			 
+			 
+						
+		
+		</section>	<br/><br/>
+
+	
+	
+<!--LAPTOP page-->	
+
+		<section class="laptop " id="laptop">
+			<div class="laptopContent">				
+				<h1>Lap<span>T</span>op</h1>
+				<p>Desktop is the best but laptop is the 
+				well beacusethese is to use comfortable.</p>
+
+
+			
+			
+				<div class="laptopImg apple">
+					<img src="laptop3.png" width=300 class="img"/>	
+					<h3 class="laptopName">APPLE</h3>
+				</div>		
+
+				
+				<div class="laptopImg dell">
+					<img src="laptop.png" width=300 class="img"/>	
+					<h3 class="laptopName">DELL</h3>
+				</div>	
+				
+				
+				<div class="laptopImg php">
+					<img src="laptop2.png" width=300 class="img"/>	
+					<h3 class="laptopName">PHP</h3>											
+				</div>	
+
+			
+			</div>
+			</section>
+	
+	
+
+	
+<!--Contact page-->	
+			<section class="contact" id="contact">
+			
+				<div class="content">
+					<h1><span>C</span>ontact us</h1>
+					<p>I am always free everyone if anyone want to get me.</p>
+				</div>
+				<!--extra  -->
+				<form class="form">
+					<h3>Login</h3>
+					<input name="email" type="email"  placeholder=" Type your E-mail"required/><br><br>
+					<input name="password" type="password"  placeholder=" Type your Password"required/><br><br>
+					<textarea placeholder="Please Type your details" cols=20 rows=5> </textarea><br><br>
+					<input class="submit" name="submit" type="submit" />
+					
+				</form>
+			
+				
+				<!--zakir img-->
+				<div class="zakir">
+					<img src="zakir.png" width=350/>				
+				</div>
+					<h3 class="myName"><marquee>MD ZAKIR HOSSAIN</marquee></h3>
+			
+			
+			</section>
+			
+	<p class="footer">This is my facebook page, you want to see Please <a href="https://web.facebook.com/profile.php?id=61554816105522">click here</a></p>
+
+
+	
+</body>
+<script src="javascript.js"></script>
+</html>
